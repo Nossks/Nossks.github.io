@@ -289,6 +289,7 @@ const CONFIG = {
   },
   social: {
     linkedin: 'aryan-gairola',
+    kaggle: 'aryangairola',
     x: '',
     mastodon: '',
     researchGate: '',
@@ -336,8 +337,29 @@ const CONFIG = {
     'Data Structures & Algorithms',
     'Competitive Programming'
   ],
-  experiences: [], 
+  experiences: [
+    {
+      company: 'Competitive Programming',
+      position: 'LeetCode Max Rating: 1757',
+      from: '2023', 
+      to: 'Present',
+      companyLink: 'https://leetcode.com/u/nossks/', 
+    },
+    {
+      company: 'Amazon ML Challenge 2025',
+      position: 'Led a team of 3 in a national-level hackathon',
+      from: 'Oct 2025', 
+      to: 'Oct 2025',
+      companyLink: '',
+    }
+  ],
   certifications: [
+    {
+      name: 'NPTEL, IIT Kharagpur',
+      body: 'Google Cloud Computing Foundations',
+      year: '',
+      link: 'https://drive.google.com/file/d/13bf7JWBhq6BdVci-tMEvQmsZb_5ii5wo/view?usp=drive_link',
+    },
     {
       name: 'Udemy Bootcamp',
       body: 'Data Science, Machine Learning, Deep Learning, NLP Bootcamp',
@@ -349,24 +371,6 @@ const CONFIG = {
       body: 'Unsupervised Learning, Recommender Systems, Reinforcement Learning',
       year: '',
       link: 'https://drive.google.com/file/d/1jIp12awypGnSJb3wEKK4QLa9zSxW5nRq/view?usp=drive_link',
-    },
-    {
-      name: 'NPTEL, IIT Kharagpur',
-      body: 'Google Cloud Computing Foundations',
-      year: '',
-      link: 'https://drive.google.com/file/d/13bf7JWBhq6BdVci-tMEvQmsZb_5ii5wo/view?usp=drive_link',
-    },
-    {
-      name: 'Competitive Programming',
-      body: 'LeetCode Max Rating: 1757',
-      year: 'Present',
-      link: '', 
-    },
-    {
-      name: 'Leadership & Hackathons',
-      body: 'Led a team of 3 in a national-level hackathon.',
-      year: '',
-      link: '',
     }
   ],
   educations: [
@@ -388,8 +392,8 @@ const CONFIG = {
   },
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'lofi',
-    disableSwitch: false,
+    defaultTheme: 'dark',
+    disableSwitch: true,
     respectPrefersColorScheme: false,
     displayAvatarRing: true,
     themes: [
