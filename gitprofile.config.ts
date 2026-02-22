@@ -248,7 +248,15 @@ const CONFIG = {
         limit: 8, 
         exclude: {
           forks: true, 
-          projects: [], 
+          projects: [
+            'Nossks/Nossks', 
+            'Nossks/sturdy_int',
+            'Nossks/EviScore',
+            'Nossks/celeb_look_alike',
+            'Nossks/FinGuard',
+            'Nossks/template_repo',
+            'Nossks/poject103'
+          ], 
         },
       },
       manual: {
@@ -340,14 +348,14 @@ const CONFIG = {
   experiences: [
     {
       company: 'Competitive Programming',
-      position: 'LeetCode Max Rating: 1757',
+      position: 'LeetCode Max Rating: 1770+',
       from: '2023', 
       to: 'Present',
       companyLink: 'https://leetcode.com/u/nossks/', 
     },
     {
       company: 'Amazon ML Challenge 2025',
-      position: 'Led a team of 3 in a national-level hackathon',
+      position: 'Led a team',
       from: 'Oct 2025', 
       to: 'Oct 2025',
       companyLink: '',
