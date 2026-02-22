@@ -402,7 +402,7 @@ const CONFIG = {
     ],
   },
   footer:'',
-  enablePWA:True
+  enablePWA:true
 };
 
 export default CONFIG;
