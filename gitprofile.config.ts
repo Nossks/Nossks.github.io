@@ -271,21 +271,21 @@ const CONFIG = {
           description:
             'Built a zero-trust forensic engine using CyborgDB to encrypt vector embeddings and minimize data leakage.',
           imageUrl: '',
-          link: '', 
+          link: 'https://github.com/Nossks/FinGuard', 
         },
         {
           title: 'Celeb Look-Alike',
           description:
             'Fine-tuned a pre-trained ResNet50 architecture on a custom dataset of 1,700+ images, boosting performance from 45% to 83.4%.',
           imageUrl: '',
-          link: '', 
+          link: 'https://github.com/Nossks/celeb_look_alike', 
         },
         {
           title: 'EviScore',
           description:
             'Architected a Safety-First pipeline to extract structured clinical data from multilingual (Hinglish) journals using LangChain.',
           imageUrl: '',
-          link: '', 
+          link: 'https://github.com/Nossks/EviScore', 
         },
       ],
     },
