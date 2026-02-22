@@ -240,7 +240,7 @@ const CONFIG = {
   base: '/',
   projects: {
     github: {
-      display: true, 
+      display: false, 
       header: 'Github Projects',
       mode: 'automatic', 
       automatic: {
