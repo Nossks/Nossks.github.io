@@ -274,6 +274,13 @@ const CONFIG = {
           link: 'https://github.com/Nossks/FinGuard', 
         },
         {
+          title: 'LogRecall',
+          description:
+            'Intelligent Log & Incident Retrieval System.',
+          imageUrl: '',
+          link: 'https://github.com/Nossks/LogRecall', 
+        },
+        {
           title: 'Celeb Look-Alike',
           description:
             'Fine-tuned a pre-trained ResNet50 architecture on a custom dataset of 1,700+ images, boosting performance from 45% to 83.4%.',
@@ -292,7 +299,7 @@ const CONFIG = {
   },
   seo: { 
     title: 'Portfolio of Aryan Gairola', 
-    description: 'AI/ML Developer', 
+    description: 'Data Science', 
     imageURL: '' 
   },
   social: {
@@ -320,7 +327,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1LK1oFm4NpLWh6z0pj0RQ8VGzjvk99PoD/view?usp=drive_link', 
+      'https://drive.google.com/file/d/1HQmwipy290j14DrBcYVmBFlPNejcRQzF/view?usp=drive_link',
   },
   skills: [
     'Python',
@@ -332,12 +339,11 @@ const CONFIG = {
     'Computer Vision',
     'Generative AI (RAG)',
     'LangChain',
-    'TensorFlow',
+    'PyTorch',
     'scikit-learn',
-    'Keras',
     'OpenCV',
     'MediaPipe',
-    'Flask',
+    'FastAPI',
     'Git',
     'GitHub',
     'VS Code',
